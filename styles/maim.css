@@ -1,0 +1,55 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card{
+    border: 1px black solid;
+}
+
+.header{
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.content{
+    display: flex;
+}
+
+img{
+    width: 50%;
+}
+
+
+
+.align{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+
+    
+}
+
+.teams-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+
+}
+.container .align{
+    background-color: aquamarine;
+    width: 50%;
+}
+
+.teams-container ul{
+    border: 1px black solid;
+}
+
+.teams-ul{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
